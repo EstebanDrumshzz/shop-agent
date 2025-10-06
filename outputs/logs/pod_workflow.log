@@ -1,0 +1,142 @@
+2025-09-08 15:07:17 [generate_design] starting
+2025-09-08 15:07:17 [generate_design] prompt='A bold, vector-style t-shirt graphic inspired by 'funny gym cats', high contrast, flat colors, centered composition, print-ready, no background.'
+2025-09-08 15:07:17 [generate_design] OpenAI error 400: {
+  "error": {
+    "message": "Unknown parameter: 'response_format'.",
+    "type": "invalid_request_error",
+    "param": "response_format",
+    "code": "unknown_parameter"
+  }
+}
+2025-09-08 15:07:17 [create_product] starting
+2025-09-08 15:07:17 [create_product] config: DRY_RUN=False, POD_PROVIDER=printful, has_PRINTFUL_KEY=True, has_PRINTIFY_KEY=True
+2025-09-08 15:07:17 [create_product] inputs: image_path=True, image_url=False
+2025-09-08 15:07:18 [create_product] Printful validation failed: 401 {"code":401,"result":"The access token provided is invalid.","error":{"reason":"Unauthorized","message":"The access token provided is invalid."}}
+2025-09-08 15:07:18 [list_product] starting
+2025-09-08 15:07:18 [list_product] config: DRY_RUN=False, store_url_set=True, admin_token_set=True
+2025-09-08 15:07:18 [list_product] prepared: title='AI Design - Funny Gym Cats', desc_len=57, tags=0
+2025-09-08 15:07:18 [list_product] POST https://bhc2va-aw.myshopify.com/admin/api/2024-10/products.json keys=['title', 'body_html', 'status']
+2025-09-08 15:07:19 [list_product] Created Shopify product: https://bhc2va-aw.myshopify.com/products/ai-design-funny-gym-cats-2
+2025-09-08 15:07:19 [list_product] Shopify response ok; id=10226195071157 status_code=201
+2025-09-08 15:31:16 [generate_design] starting
+2025-09-08 15:31:16 [generate_design] prompt='A bold, vector-style t-shirt graphic inspired by 'funny gym cats', high contrast, flat colors, centered composition, print-ready, no background.'
+2025-09-08 15:31:17 [generate_design] OpenAI error 400: {
+  "error": {
+    "message": "Unknown parameter: 'response_format'.",
+    "type": "invalid_request_error",
+    "param": "response_format",
+    "code": "unknown_parameter"
+  }
+}
+2025-09-08 15:31:17 [create_product] starting
+2025-09-08 15:31:17 [create_product] config: DRY_RUN=False, POD_PROVIDER=printful, has_PRINTFUL_KEY=True, has_PRINTIFY_KEY=True
+2025-09-08 15:31:17 [create_product] inputs: image_path=True, image_url=False
+2025-09-08 15:31:17 [create_product] Bearer token valid; using store_id=16767440
+2025-09-08 15:31:17 [create_product] No valid image available; using placeholder URL for test upload.
+2025-09-08 15:31:17 [create_product] Printful file upload failed: 400 {"code":400,"result":"This endpoint requires `store_id`!","error":{"reason":"BadRequest","message":"This endpoint requires `store_id`!"}}
+2025-09-08 15:31:17 [list_product] starting
+2025-09-08 15:31:17 [list_product] config: DRY_RUN=False, store_url_set=True, admin_token_set=True
+2025-09-08 15:31:17 [list_product] prepared: title='AI Design - Funny Gym Cats', desc_len=57, tags=0
+2025-09-08 15:31:17 [list_product] POST https://bhc2va-aw.myshopify.com/admin/api/2024-10/products.json keys=['title', 'body_html', 'status']
+2025-09-08 15:31:18 [list_product] Created Shopify product: https://bhc2va-aw.myshopify.com/products/ai-design-funny-gym-cats
+2025-09-08 15:31:18 [list_product] Shopify response ok; id=10226197692597 status_code=201
+2025-09-08 15:32:35 [generate_design] starting
+2025-09-08 15:32:35 [generate_design] prompt='A bold, vector-style t-shirt graphic inspired by 'funny gym cats', high contrast, flat colors, centered composition, print-ready, no background.'
+2025-09-08 15:32:36 [generate_design] OpenAI error 400: {
+  "error": {
+    "message": "Unknown parameter: 'response_format'.",
+    "type": "invalid_request_error",
+    "param": "response_format",
+    "code": "unknown_parameter"
+  }
+}
+2025-09-08 15:32:36 [create_product] starting
+2025-09-08 15:32:36 [create_product] config: DRY_RUN=False, POD_PROVIDER=printful, has_PRINTFUL_KEY=True, has_PRINTIFY_KEY=True
+2025-09-08 15:32:36 [create_product] inputs: image_path=True, image_url=False
+2025-09-08 15:32:36 [create_product] Bearer token valid; using store_id=16767440
+2025-09-08 15:32:36 [create_product] No valid image available; using placeholder URL for test upload.
+2025-09-08 15:32:37 [create_product] Uploaded design file_id=872582493
+2025-09-08 15:32:40 [create_product] Catalog list failed: 500 {"code":0,"result":"An internal server error occurred.","error":{"reason":0,"message":"An internal server error occurred."}}
+2025-09-08 15:32:40 [list_product] starting
+2025-09-08 15:32:40 [list_product] config: DRY_RUN=False, store_url_set=True, admin_token_set=True
+2025-09-08 15:32:40 [list_product] prepared: title='AI Design - Funny Gym Cats', desc_len=57, tags=0
+2025-09-08 15:32:40 [list_product] POST https://bhc2va-aw.myshopify.com/admin/api/2024-10/products.json keys=['title', 'body_html', 'status']
+2025-09-08 15:32:40 [list_product] Created Shopify product: https://bhc2va-aw.myshopify.com/products/ai-design-funny-gym-cats-1
+2025-09-08 15:32:40 [list_product] Shopify response ok; id=10226198216885 status_code=201
+2025-09-08 15:33:48 [generate_design] starting
+2025-09-08 15:33:48 [generate_design] prompt='A bold, vector-style t-shirt graphic inspired by 'funny gym cats', high contrast, flat colors, centered composition, print-ready, no background.'
+2025-09-08 15:33:48 [generate_design] OpenAI error 400: {
+  "error": {
+    "message": "Unknown parameter: 'response_format'.",
+    "type": "invalid_request_error",
+    "param": "response_format",
+    "code": "unknown_parameter"
+  }
+}
+2025-09-08 15:33:48 [create_product] starting
+2025-09-08 15:33:48 [create_product] config: DRY_RUN=False, POD_PROVIDER=printful, has_PRINTFUL_KEY=True, has_PRINTIFY_KEY=True
+2025-09-08 15:33:48 [create_product] inputs: image_path=True, image_url=False
+2025-09-08 15:33:48 [create_product] Bearer token valid; using store_id=16767440
+2025-09-08 15:33:48 [create_product] No valid image available; using placeholder URL for test upload.
+2025-09-08 15:33:49 [create_product] Uploaded design file_id=872582493
+2025-09-08 15:33:55 [create_product] Catalog list failed: 500 {"code":0,"result":"An internal server error occurred.","error":{"reason":0,"message":"An internal server error occurred."}}; trying variants search fallback.
+2025-09-08 15:33:55 [create_product] Variants search failed: 400 {"code":400,"result":"Missing required parameter: product_id or variant_ids","error":{"reason":"BadRequest","message":"Missing required parameter: product_id or variant_ids"}}
+2025-09-08 15:33:55 [list_product] starting
+2025-09-08 15:33:55 [list_product] config: DRY_RUN=False, store_url_set=True, admin_token_set=True
+2025-09-08 15:33:55 [list_product] prepared: title='AI Design - Funny Gym Cats', desc_len=57, tags=0
+2025-09-08 15:33:55 [list_product] POST https://bhc2va-aw.myshopify.com/admin/api/2024-10/products.json keys=['title', 'body_html', 'status']
+2025-09-08 15:33:56 [list_product] Created Shopify product: https://bhc2va-aw.myshopify.com/products/ai-design-funny-gym-cats-2
+2025-09-08 15:33:56 [list_product] Shopify response ok; id=10226198282421 status_code=201
+2025-09-08 15:36:07 [generate_design] starting
+2025-09-08 15:36:07 [generate_design] prompt='A bold, vector-style t-shirt graphic inspired by 'funny gym cats', high contrast, flat colors, centered composition, print-ready, no background.'
+2025-09-08 15:36:07 [generate_design] OpenAI error 400: {
+  "error": {
+    "message": "Unknown parameter: 'response_format'.",
+    "type": "invalid_request_error",
+    "param": "response_format",
+    "code": "unknown_parameter"
+  }
+}
+2025-09-08 15:36:07 [create_product] starting
+2025-09-08 15:36:07 [create_product] config: DRY_RUN=False, POD_PROVIDER=printful, has_PRINTFUL_KEY=True, has_PRINTIFY_KEY=True
+2025-09-08 15:36:07 [create_product] inputs: image_path=True, image_url=False
+2025-09-08 15:36:07 [create_product] Bearer token valid; using store_id=16767440
+2025-09-08 15:36:07 [create_product] No valid image available; using placeholder URL for test upload.
+2025-09-08 15:36:07 [create_product] Uploaded design file_id=872582493
+2025-09-08 15:36:22 [create_product] Catalog list failed: 500 {"code":0,"result":"An internal server error occurred.","error":{"reason":0,"message":"An internal server error occurred."}}; trying variants search fallback.
+2025-09-08 15:36:22 [create_product] Variants search failed: 400 {"code":400,"result":"Missing required parameter: product_id or variant_ids","error":{"reason":"BadRequest","message":"Missing required parameter: product_id or variant_ids"}}
+2025-09-08 15:36:22 [list_product] starting
+2025-09-08 15:36:22 [list_product] config: DRY_RUN=False, store_url_set=True, admin_token_set=True
+2025-09-08 15:36:22 [list_product] prepared: title='AI Design - Funny Gym Cats', desc_len=57, tags=0
+2025-09-08 15:36:22 [list_product] POST https://bhc2va-aw.myshopify.com/admin/api/2024-10/products.json keys=['title', 'body_html', 'status']
+2025-09-08 15:36:23 [list_product] Created Shopify product: https://bhc2va-aw.myshopify.com/products/ai-design-funny-gym-cats-3
+2025-09-08 15:36:23 [list_product] Shopify response ok; id=10226198544565 status_code=201
+2025-09-08 15:59:23 [generate_design] starting
+2025-09-08 15:59:23 [generate_design] prompt='A bold, vector-style t-shirt graphic inspired by 'funny gym cats', high contrast, flat colors, centered composition, print-ready, no background.'
+2025-09-08 15:59:24 [generate_design] OpenAI error 400: {
+  "error": {
+    "message": "Unknown parameter: 'response_format'.",
+    "type": "invalid_request_error",
+    "param": "response_format",
+    "code": "unknown_parameter"
+  }
+}
+2025-09-08 15:59:24 [create_shopify_product_and_sync_printful] starting
+2025-09-08 15:59:24 [create_shopify_product_and_sync_printful] Creating product in Shopify...
+2025-09-08 15:59:24 [create_shopify_product_and_sync_printful] Shopify API error: 422 Client Error: unknown for url: https://bhc2va-aw.myshopify.com/admin/api/2023-10/products.json
+2025-09-08 16:01:24 [generate_design] starting
+2025-09-08 16:01:24 [generate_design] prompt='A bold, vector-style t-shirt graphic inspired by 'funny gym cats', high contrast, flat colors, centered composition, print-ready, no background.'
+2025-09-08 16:01:39 [generate_design] saved image to outputs\designs\design_1757372484.png
+2025-09-08 16:01:39 [create_shopify_product_and_sync_printful] starting
+2025-09-08 16:01:39 [create_shopify_product_and_sync_printful] Creating product in Shopify...
+2025-09-08 16:01:39 [create_shopify_product_and_sync_printful] Shopify product created with ID: 10226200838325
+2025-09-08 16:01:39 [create_shopify_product_and_sync_printful] Syncing with Printful...
+2025-09-08 16:01:40 [create_shopify_product_and_sync_printful] Printful API error: 400 Client Error: Bad Request for url: https://api.printful.com/sync/products. The Shopify product still exists.
+2025-09-08 16:30:47 [generate_design] starting
+2025-09-08 16:30:47 [generate_design] prompt='A bold, vector-style t-shirt graphic inspired by 'funny gym cats', high contrast, flat colors, centered composition, print-ready, no background.'
+2025-09-08 16:31:01 [generate_design] saved image to outputs\designs\design_1757374247.png
+2025-09-08 16:31:01 [create_shopify_product_and_sync_printful] starting
+2025-09-08 16:31:01 [create_shopify_product_and_sync_printful] Creating product in Shopify...
+2025-09-08 16:31:01 [create_shopify_product_and_sync_printful] Shopify product created with ID: 10226204737717
+2025-09-08 16:31:01 [create_shopify_product_and_sync_printful] Syncing with Printful...
+2025-09-08 16:31:02 [create_shopify_product_and_sync_printful] Printful API error: 400 Client Error: Bad Request for url: https://api.printful.com/sync/products. The Shopify product still exists.

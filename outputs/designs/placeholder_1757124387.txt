@@ -1,0 +1,2 @@
+DRY_RUN placeholder for generated image.
+Prompt: A bold, vector-style t-shirt graphic inspired by 'funny gym cats', high contrast, flat colors, centered composition, print-ready, no background.
